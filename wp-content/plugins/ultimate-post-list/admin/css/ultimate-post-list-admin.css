@@ -1,0 +1,46 @@
+form .postbox fieldset {
+	margin: 1em 0; /* same margins as paragraphs */
+}
+form .metabox-holder textarea {
+	width: 100%;
+	height: 4em;
+}
+
+a.wp-color-result,
+span.description {
+    vertical-align: middle;
+}
+
+select[name*="widget-ultimate-post-list"] {
+	max-width: 100%;
+}
+
+input[id*="width"],
+input[id*="height"],
+input#number_posts,
+input#offset_posts {
+	width: 3em;
+}
+
+input[id*="length"],
+input[id*="text_after"] {
+	width: 4em;
+}
+
+input[id*="url_"],
+input#list_title,
+input#text_if_empty {
+	width: 100%;
+}
+
+select[multiple] {
+	display: block;
+}
+
+#screenshot-shortcode-box {
+	width: 283px;
+	float: right;
+	padding: 0;
+	margin: 0 0 1em 1em;
+	line-height: 1;
+}

@@ -1,0 +1,16 @@
+/.idea/
+*.log
+/wp-includes/
+/wp-admin/
+/wp-content/advanced-cache.php
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/cache/
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/wflogs/
+/wp-content/wp-cache-config.php
+/.htaccess
+/license.txt
+/readme.html

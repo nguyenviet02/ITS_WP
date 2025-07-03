@@ -1,0 +1,1 @@
+function upl_copy(){document.getElementById("uplshortcode").select(),document.execCommand("copy"),alert(upl_i18n.success)}!function(c){"use strict";c(function(){c(".wp-color-picker").wpColorPicker()})}(jQuery);
