@@ -16,7 +16,7 @@ services:
       - phpmyadmin
     restart: always
     ports:
-      - 8080:80
+      - 8000:80
 
   db:
     image: mariadb:latest
@@ -41,6 +41,7 @@ services:
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: password
+      UPLOAD_LIMIT: 300M
 
 volumes:
   db_data:
